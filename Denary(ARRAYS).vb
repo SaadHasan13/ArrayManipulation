@@ -1,7 +1,7 @@
 ﻿Module Module1
 
     Sub Main()
-        Dim binArr(8), Denary, I As Integer
+        Dim binArr(8), Denary, I, Remainder As Integer
 
         Do Until Denary >= 0 And Denary <= 255
 
@@ -16,7 +16,10 @@
 
         Do While Denary > 0
             I = I + 1
-            binArr(I) = Denary Mod 2
+        Remainder = Denary Mod 2
+        binArr(I) = Remainder
+        
+        
             Denary = Denary / 2
         Loop
 
