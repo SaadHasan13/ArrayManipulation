@@ -18,9 +18,7 @@
             I = I + 1
         Remainder = Denary Mod 2
         binArr(I) = Remainder
-        
-        
-            Denary = Denary / 2
+          Denary = Denary / 2
         Loop
 
         For I = 8 To 1 Step -1
